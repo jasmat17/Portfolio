@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="images/Bart_Simpson_200px.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center p-3 shadow-sm sticky-top">
+        <a href="#home" class="fs-4 fw-bold">My Portfolio</a>
+        <div>
+            <a href="#home" class="me-3">Home</a>
+            <a href="#skills" class="me-3">Skills</a>
+            <a href="#about" class="me-3">About</a>
+            <a href="#myLife" class="me-3">MyLife</a>
+            <button id="theme-toggle" class="btn btn-outline-primary btn-sm">Toggle Theme</button>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center py-5">
+        <img src="images/my_photo.jpg" alt="Profile" class="rounded-circle mb-3 profile-img">
+        <h1>Hi, I am Jasmat Singh</h1>
+        <p class="text-muted">Interactive Portfolio Made Using HTML, CSS & JS</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <i class="bi bi-code-slash fs-1 text-primary"></i>
+                    <p>Coding</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="bi bi-box fs-1 text-success"></i>
+                    <p>3D Modeling</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="bi bi-scissors fs-1 text-warning"></i>
+                    <p>Editing</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="bi bi-camera-reels fs-1 text-info"></i>
+                    <p>Snapchat Lens Creation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">I am Jasmat Singh from Chandigarh, India — a passionate coder, 3D modeler, editor, animator, and Snapchat Lens creator. I love creating interactive experiences and learning new technologies constantly.</p>
+        </div>
+    </section>
+
+    <!-- My Life Section -->
+    <section id="myLife" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Life</h2>
+            <p class="text-center">Outside tech, my life is colorful but a bit messy. I struggle with ambition paralysis but I love traveling. My favorite country is Japan — I’ve been there and dream of a peaceful life, a small house, a nice setup, and a low-key good car. I just want to enjoy life without distractions.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2025 Jasmat Singh</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
